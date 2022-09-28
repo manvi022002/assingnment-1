@@ -1,0 +1,13 @@
+from datetime import datetime
+name = input('What is your name? \n')
+age = int(input('How old are you? \n'))
+hundred = int((100-age) + datetime.now().year)
+print ('Hello %s. You are %s years old. You will turn 100 years old in %s.' % (name, age, hundred))
+
+output :
+What is your name? 
+srijan tiwari
+How old are you? 
+19
+Hello srijan tiwari. You are 19 years old. You will turn 100 years old in 2103.
+> 
